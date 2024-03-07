@@ -7,7 +7,7 @@
   margin: auto;
   width: 50%;
   border: 3px solid black;
-  background-image: url('./images/chat-screen.png');
+  /* background-image: url('./images/chat-screen.png'); */
   background-size: cover;
   background-repeat: no-repeat;
 }

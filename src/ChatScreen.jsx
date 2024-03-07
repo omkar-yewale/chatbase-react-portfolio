@@ -123,7 +123,7 @@ const ChatScreen = () => {
   };
 
   return (
-    <div className="chatScreen">
+    <div className="chatScreen" style={{ backgroundImage: `url('./images/chat-screen.png')`, backgroundSize: 'cover', backgroundRepeat: 'no-repeat' }}>
       <ChatHeader lastSeen={isTyping ? 'typing...' : 'Online'} />
       <div className="chatScreen__messages">
         <div className='encryption-container'>
