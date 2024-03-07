@@ -1,0 +1,41 @@
+.chatHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 65px;
+  padding: 0 20px;
+  background-color: #f0f0f0;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+
+.userDetails {
+  display: flex;
+  align-items: center;
+}
+
+.userImage {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.userName {
+  font-weight: bold;
+  margin: 1px;
+}
+
+.lastSeen {
+  font-size: 12px;
+  margin: 0;
+  color: green;
+}
+
+.cv-download {
+  text-decoration: none;
+  color: black;
+  width: 25px;
+  height: 20px;
+}
