@@ -57,10 +57,10 @@ const responses = {
       🧬<a href="https://www.tracelink.com/" className="link-design" target="blank"> Tracelink </a>
       <p>Transform the Online Presence of Tracelink! Elevate the Only Network Creation Platform Company with an Integrated Business Ecosystem.</p>
 
-      💄<a href="https://www.rishabhsoft.com/" className="link-design" target="blank"> NALX (North america learning experience) </a>
+      💄<a href="https://nalx.elcompanies.com/login" className="link-design" target="blank"> NALX (North america learning experience) </a>
       <p>Unlock Cosmetics Brand Secrets with Our Engaging Web Application. Dive into Comprehensive Courses and Learning Experiences!</p>
 
-      🌟<a href="#" target="blank" className="link-design"> Aatmanirbhar Bharat </a>
+      🌟<a href="" target="blank" className="link-design"> Aatmanirbhar Bharat </a>
       <p>Empower Self-Reliant India! Navigate COVID-19 Challenges with Our Web Application. Discover the Five Pillars of Atma Nirbhar Bharat in Action.</p>
 
       📈<a href="https://www.trigyn.com/" className="link-design" target="blank"> PMS (Performance management system) </a>
@@ -105,7 +105,7 @@ const responses = {
       <ul>
         <li>Expertise in Drupal development, including custom module and theme creation.</li>
         <li>Strong understanding of HTML, CSS, and JavaScript.</li>
-        <li>Experience with MySQL or other relational databases.</li>
+        <li>Experience with MySQL and other relational databases.</li>
         <li>Knowledge of version control systems like Git.</li>
         <li>Familiarity with Agile software development methodologies.</li>
       </ul>
@@ -138,7 +138,7 @@ const responses = {
     <div className="cv-template">
       <img src="./images/cv-preview.jpg" className="resumeThumbnail"></img>
       <div className="download-cv">
-      <FaRegFilePdf className="cv-icons cv-pdf"/> <p> OmkarYewale.pdf </p><a href="./public/files/OmkarYewaleDrupalDeveloper.pdf" download><FaArrowCircleDown className="cv-icons cv-dn"/></a>
+      <FaRegFilePdf className="cv-icons cv-pdf"/> <p> OmkarYewale.pdf </p><a href="./public/files/OmkarYewaleDrupalDeveloper.pdf" download="OmkarYewaleDrupalDeveloper.pdf"><FaArrowCircleDown className="cv-icons cv-dn"/></a>
     </div>
     </div>
   ),

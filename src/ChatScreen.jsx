@@ -29,8 +29,8 @@ const ChatScreen = () => {
     message: (
       <div className="inital-msg">
         Hi <span className="wave"> 👋 </span>, <br/>
-        I'M, <i> Omkar Yewale </i>😎<br/><br/>
-        A passionate <a className="link" href='https://www.drupal.org/u/omkar_yewale' target='blank'> Drupal enthusiast </a> 👩🏻‍💻 with over five✋ years of Drupal development expertise.<br /> I've worked on several Drupal projects📁, developed custom modules and themes📝, and had experience with multi-site and multi-lingual applications.😊<br/><br/>
+        I am, <i> Omkar Yewale </i>😎<br/><br/>
+        A passionate <a className="link" href='https://www.drupal.org/u/omkar_yewale' target='blank'> Drupal enthusiast </a> 👩🏻‍💻 with over five years of Drupal development expertise.<br /> I've worked on several Drupal projects📁, developed custom modules and themes📝, and had experience with multi-site and multi-lingual applications.😊<br/><br/>
         To continue, simply tap the button below.! 👇 <br/>
       </div>
     ),
@@ -74,7 +74,8 @@ const ChatScreen = () => {
 
   // Process reply message
   const processMessage = (message) => {
-    const response = responses[message.toLowerCase()];
+    const trimmedMessage = message.trim(); // Trim the input
+    const response = responses[trimmedMessage.toLowerCase()];
     const newReceiverMessage = {
       sender: 'receiver',
       flag: false,
@@ -152,7 +153,7 @@ const ChatScreen = () => {
           }
         }}/>
         <button onClick={sendMessage}><IoMdSend className='icons'/></button>
-        <button onClick={handleDeleteHistory}><MdOutlineDeleteOutline className='icons'/></button>
+        {/* <button onClick={handleDeleteHistory}><MdOutlineDeleteOutline className='icons'/></button> */}
       </div>
     </div>
 
