@@ -104,7 +104,8 @@
 }
 
 .chatScreen__input input {
-  flex-grow: 1;
+  /* flex-grow: 1; */
+  width: 72%;
   padding: 10px;
   border-radius: 10px;
 }

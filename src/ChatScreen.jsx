@@ -153,7 +153,7 @@ const ChatScreen = () => {
           }
         }}/>
         <button onClick={sendMessage}><IoMdSend className='icons'/></button>
-        {/* <button onClick={handleDeleteHistory}><MdOutlineDeleteOutline className='icons'/></button> */}
+        <button onClick={handleDeleteHistory}><MdOutlineDeleteOutline className='icons'/></button>
       </div>
     </div>
 
