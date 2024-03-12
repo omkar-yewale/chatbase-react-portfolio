@@ -138,7 +138,7 @@ const responses = {
     <div className="cv-template">
       <img src="./images/cv-preview.jpg" className="resumeThumbnail"></img>
       <div className="download-cv">
-      <FaRegFilePdf className="cv-icons cv-pdf"/> <p> OmkarYewale.pdf </p><a href="./public/files/OmkarYewaleDrupalDeveloper.pdf" download="OmkarYewaleDrupalDeveloper.pdf"><FaArrowCircleDown className="cv-icons cv-dn"/></a>
+      <FaRegFilePdf className="cv-icons cv-pdf"/> <p> OmkarYewale.pdf </p><a href="./files/OmkarYewaleDrupalDeveloper.pdf" download="OmkarYewaleDrupalDeveloper.pdf"><FaArrowCircleDown className="cv-icons cv-dn"/></a>
     </div>
     </div>
   ),

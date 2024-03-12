@@ -12,7 +12,7 @@ const ChatHeader = ({ lastSeen }) => {
           <p className="lastSeen">{lastSeen}</p>
         </div>
       </div>
-      <a href="./public/files/OmkarYewaleDrupalDeveloper.pdf" download><FaDownload className="cv-download"/></a>
+      <a href="./files/OmkarYewaleDrupalDeveloper.pdf" download="OmkarYewaleDrupalDeveloper.pdf"><FaDownload className="cv-download"/></a>
     </div>
   );
 };
